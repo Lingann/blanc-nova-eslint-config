@@ -1,5 +1,5 @@
 // refer: https://github.com/standard/eslint-config-standard/blob/master/.eslintrc.json
-module.exports = {
+export default {
   parserOptions: {
     ecmaVersion: 2022,
     ecmaFeatures: {

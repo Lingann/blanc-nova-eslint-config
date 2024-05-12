@@ -1,6 +1,8 @@
-const basic = require('@blanc-nova/eslint-standard')
+// const basic = require('@blanc-nova/eslint-standard')
 
-module.exports = {
+import standard from '@blanc-nova/eslint-standard'
+
+export default {
   extends: [
     '@blanc-nova/eslint-standard',
     'plugin:import/typescript',
@@ -11,7 +13,7 @@ module.exports = {
       node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
     },
   },
-  overrides: basic.overrides,
+  overrides: standard.overrides,
   rules: {
     'import/named': 'off', // 禁止使用未导出的名称
     // TS

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module', // 启用ES模块
