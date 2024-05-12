@@ -1,10 +1,9 @@
 {
-  "name": "@blanc-nova/eslint-standard",
+  "name": "@blanc-nova/eslint-config-standard",
   "version": "0.1.2-alpha.4",
   "description": "提供基础的 ESLint 配置",
   "main": "index.js",
   "scripts": {
-    "upload": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -36,7 +35,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "eslint-standard-config",
+    "tag": "eslint-config-standard",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {

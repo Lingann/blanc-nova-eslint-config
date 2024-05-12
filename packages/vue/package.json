@@ -1,10 +1,9 @@
 {
-  "name": "@blanc-nova/eslint-vue",
+  "name": "@blanc-nova/eslint-config-vue",
   "version": "0.1.2-alpha.4",
   "description": "专为Vue项目提供的ESLint配置",
   "main": "index.js",
   "scripts": {
-    "upload": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,13 +18,13 @@
     "eslint": ">=8.0.1"
   },
   "dependencies": {
-    "@blanc-nova/eslint-standard": "^0.1.2-alpha.4",
+    "@blanc-nova/eslint-config-standard": "^0.1.2-alpha.4",
     "eslint": "^8.16.0",
     "eslint-plugin-vue": "^9.3.0"
   },
   "publishConfig": {
     "access": "public",
-    "tag": "eslint-vue-config",
+    "tag": "eslint-config-vue",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {

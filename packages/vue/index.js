@@ -1,6 +1,6 @@
 'use strict'
 module.exports = {
-  extends: ['@blanc-nova/eslint-standard'],
+  extends: ['@blanc-nova/eslint-config-standard'],
   overrides: [
     {
       files: ['*.vue'],

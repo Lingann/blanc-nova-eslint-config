@@ -344,7 +344,6 @@ module.exports = {
     'import/no-named-as-default': 'off', // 禁止将默认导出的名称用作命名导出
     'import/namespace': 'off', // 禁止将默认导出的名称用作命名导出
     'n/no-callback-literal': 'off', // 禁止将默认导出的名称用作命名导出
-
     'sort-imports': [
       'error',
       {
@@ -355,7 +354,6 @@ module.exports = {
         allowSeparatedGroups: false,
       },
     ],
-
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }], // 禁止使用双引号
     'yml/no-empty-document': 'off', // 禁止空文档

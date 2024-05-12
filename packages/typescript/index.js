@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: ['@blanc-nova/eslint-standard'],
+  extends: ['@blanc-nova/eslint-config-standard'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
