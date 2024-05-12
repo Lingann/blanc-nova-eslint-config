@@ -24,7 +24,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "eslint-config-vue",
+    "tag": "eslint-vue",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
