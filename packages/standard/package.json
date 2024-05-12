@@ -11,6 +11,9 @@
   ],
   "author": "Lingann Wang",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.10.0",

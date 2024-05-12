@@ -11,6 +11,9 @@
   ],
   "author": "Lingann Wang",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "files": [
     "index.js"
   ],
