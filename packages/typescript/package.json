@@ -1,6 +1,6 @@
 {
   "name": "@blanc-nova/eslint-typescript",
-  "version": "0.1.2-alpha.0",
+  "version": "0.1.2-alpha.1",
   "description": "提供基础的 TypeScript 项目 ESLint 配置",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@blanc-nova/eslint-standard": "^0.1.2-alpha.0",
+    "@blanc-nova/eslint-standard": "^0.1.2-alpha.1",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0"
@@ -37,5 +37,5 @@
   "bugs": {
     "url": "https://github.com/Lingann/blanc-nova-eslint-config/issues"
   },
-  "gitHead": "3aa36913785a6db471c9075ea11a0f9332e562e0"
+  "gitHead": "aaafa2468a203e592400927a786cf778d97ea7e1"
 }
