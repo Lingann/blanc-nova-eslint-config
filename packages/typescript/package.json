@@ -1,6 +1,6 @@
 {
   "name": "@blanc-nova/eslint-typescript",
-  "version": "0.1.2-alpha.3",
+  "version": "0.1.2-alpha.4",
   "description": "提供基础的 TypeScript 项目 ESLint 配置",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@blanc-nova/eslint-standard": "^0.1.2-alpha.3",
+    "@blanc-nova/eslint-standard": "^0.1.2-alpha.4",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0"
