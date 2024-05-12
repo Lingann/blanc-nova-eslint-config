@@ -21,6 +21,7 @@ module.exports = {
     'plugin:yml/standard',
     'plugin:markdown/recommended',
     'eslint-config-standard',
+    'prettier',
   ],
   ignorePatterns: [
     '*.min.*',
@@ -40,7 +41,7 @@ module.exports = {
     '!.vitepress',
     '!.vscode',
   ],
-  plugins: ['html', 'unicorn'],
+  plugins: ['html', 'unicorn', 'prettier'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
@@ -190,6 +191,13 @@ module.exports = {
     },
   ],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        // 禁止末尾逗号
+        trailingComma: 'none',
+      },
+    ],
     // import
     'import/order': 'error', // 引入顺序
     'import/first': 'error', // 引入顺序
@@ -271,7 +279,7 @@ module.exports = {
     ],
     'prefer-exponentiation-operator': 'error', // 要求使用**操作符
     'prefer-rest-params': 'error', // 要求使用剩余参数而不是 arguments
-    'prefer-spread': 'error', // 要求使用扩展运算符而非 .apply()
+    'prefer-spread': 'off', // 要求使用扩展运算符而非 .apply()
     'prefer-template': 'error', // 要求使用模板字面量而非字符串连接
     'template-curly-spacing': 'error', // 要求或禁止模板字符串中的嵌入表达式周围空格的使用
 
@@ -306,6 +314,7 @@ module.exports = {
     'no-with': 'error', // 禁用 with 语句
     'no-void': 'error', // 禁用 void 操作符
     'no-useless-escape': 'off', // 禁用不必要的转义字符
+    'no-prototype-builtins': 'off', // 禁止直接使用 Object.prototypes 的内置属性
     'vars-on-top': 'error', // 要求所有的 var 声明出现在它们所在的作用域顶部
     'require-await': 'off', // 禁止使用不带 await 表达式的 async 函数
     'no-return-assign': 'off', // 禁止在 return 语句中使用赋值语句

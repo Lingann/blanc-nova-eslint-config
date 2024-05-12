@@ -135,5 +135,6 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off', // 禁止使用特定的类型
     '@typescript-eslint/no-namespace': 'off', // 禁止使用命名空间
     '@typescript-eslint/triple-slash-reference': 'off', // 三斜线指令
+    '@typescript-eslint/strict-boolean-expressions': 'off', // 严格布尔表达式
   },
 }
