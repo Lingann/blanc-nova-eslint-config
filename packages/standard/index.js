@@ -1,5 +1,5 @@
 'use strict'
-
+// 基本eslint-配置
 module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
