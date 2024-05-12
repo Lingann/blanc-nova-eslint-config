@@ -1,4 +1,4 @@
-# blanc-nova-eslint-config
+# Blanc Nova ESLint Config
 
 [中文文档](./README_ZH.md)
 
