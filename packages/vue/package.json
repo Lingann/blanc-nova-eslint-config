@@ -24,6 +24,8 @@
     "eslint-plugin-vue": "^9.3.0"
   },
   "publishConfig": {
+    "access": "public",
+    "tag": "eslint-vue-config",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
@@ -32,5 +34,6 @@
   },
   "bugs": {
     "url": "https://github.com/Lingann/blanc-nova-eslint-config/issues"
-  }
+  },
+  "gitHead": "3aa36913785a6db471c9075ea11a0f9332e562e0"
 }

@@ -35,6 +35,8 @@
     "eslint-plugin-promise": "^6.0.0"
   },
   "publishConfig": {
+    "access": "public",
+    "tag": "eslint-standard-config",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
@@ -43,5 +45,6 @@
   },
   "bugs": {
     "url": "https://github.com/Lingann/blanc-nova-eslint-config/issues"
-  }
+  },
+  "gitHead": "3aa36913785a6db471c9075ea11a0f9332e562e0"
 }
