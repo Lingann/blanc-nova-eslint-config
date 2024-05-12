@@ -4,7 +4,7 @@
   "description": "提供基础的 TypeScript 项目 ESLint 配置",
   "main": "index.js",
   "scripts": {
-    "upload": "npm publish",
+    "upload": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
