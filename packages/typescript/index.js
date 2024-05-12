@@ -10,10 +10,12 @@ module.exports = {
       node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
     },
   },
-  overrides: {
-    files: ['*.ts', '*.tsx', '*.d.ts'],
-    parser: '@typescript-eslint/parser',
-  },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx', '*.d.ts'],
+      parser: '@typescript-eslint/parser',
+    },
+  ],
   rules: {
     'import/named': 'off', // 禁止使用未导出的名称
     indent: 'off', // 缩进
