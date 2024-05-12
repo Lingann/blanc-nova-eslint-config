@@ -1,6 +1,6 @@
 {
   "name": "@blanc-nova/eslint-config-vue",
-  "version": "0.1.2-alpha.4",
+  "version": "0.1.2",
   "description": "专为Vue项目提供的ESLint配置",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "eslint": ">=8.0.1"
   },
   "dependencies": {
-    "@blanc-nova/eslint-config-standard": "^0.1.2-alpha.4",
+    "@blanc-nova/eslint-config-standard": "^0.1.2",
     "eslint": "^8.16.0",
     "eslint-plugin-vue": "^9.3.0"
   },
