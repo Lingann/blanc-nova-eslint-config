@@ -9,11 +9,11 @@
     "lint": "eslint .",
     "version": "lerna version",
     "sort-package": "npx sort-package-json",
-    "publish": "lerna publish"
+    "publish": "lerna publish --force-publish"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "lerna": "^6.6.2",
+    "lerna": "^8.1.2",
     "prettier": "^3.2.5",
     "typescript": "^4.9.5"
   },
