@@ -18,7 +18,7 @@
     "eslint": ">=8.0.1"
   },
   "dependencies": {
-    "@blanc-nova/eslint-config-standard": "^0.1.4",
+    "@blanc-nova/eslint-config-standard": "^0.1.5",
     "eslint": "^8.16.0",
     "eslint-plugin-vue": "^9.3.0"
   },
