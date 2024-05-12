@@ -1,0 +1,40 @@
+{
+  "name": "@blanc-nova/eslint-standard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Lingann Wang",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "eslint-plugin-yml": "^1.0.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

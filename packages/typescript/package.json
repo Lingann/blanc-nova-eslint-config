@@ -1,0 +1,31 @@
+{
+  "name": "@blanc-nova/eslint-typescript",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Lingann Wang",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.1",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@blanc-nova/eslint-standard": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
