@@ -1,4 +1,6 @@
-export default {
+'use strict'
+
+module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module', // 启用ES模块
@@ -39,7 +41,7 @@ export default {
     '!.vitepress',
     '!.vscode',
   ],
-  plugins: ['html', 'unicorn', 'mysteel-check', 'prettier'],
+  plugins: ['html', 'unicorn', 'prettier'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },

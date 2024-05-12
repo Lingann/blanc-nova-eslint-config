@@ -1,4 +1,5 @@
-export default {
+'use strict'
+module.exports = {
   overrides: [
     {
       files: ['*.vue'],
@@ -20,10 +21,8 @@ export default {
     'max-lines-per-function': 'off',
     // 禁止使用未导出的名称
     'import/named': 'off',
-
     // ------------------vue相关------------------
     // 有关vue的规则请参考：https://eslint.vuejs.org/rules/
-
     // 属性换行
     'vue/max-attributes-per-line': 'off',
     // 禁止使用 v-html

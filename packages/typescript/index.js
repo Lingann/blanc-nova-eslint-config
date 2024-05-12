@@ -1,8 +1,8 @@
-// const basic = require('@blanc-nova/eslint-standard')
+'use strict'
 
-import standard from '@blanc-nova/eslint-standard'
+const standard = require('@blanc-nova/eslint-standard')
 
-export default {
+module.exports = {
   extends: [
     '@blanc-nova/eslint-standard',
     'plugin:import/typescript',
