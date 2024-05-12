@@ -33,7 +33,7 @@ if you are using Vue 3 + TypeScript, you can use the following configuration:
   "extends": [
     "@blanc-nova/eslint-config-standard",
     "@blanc-nova/eslint-config-typescript",
-    "@blanc-nova/eslint-config-vue3"
+    "@blanc-nova/eslint-config-vue"
   ],
   "overrides": [
     {

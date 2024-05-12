@@ -31,7 +31,7 @@ npm install eslint @blanc-nova/eslint-config-standard @blanc-nova/eslint-config-
   "extends": [
     "@blanc-nova/eslint-config-standard",
     "@blanc-nova/eslint-config-typescript",
-    "@blanc-nova/eslint-config-vue3"
+    "@blanc-nova/eslint-config-vue"
   ],
   "overrides": [
     {
