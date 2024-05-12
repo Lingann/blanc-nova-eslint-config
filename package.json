@@ -7,9 +7,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "version": "lerna version",
+    "update-version": "lerna version",
     "sort-package": "npx sort-package-json",
-    "publish": "lerna publish --force-publish"
+    "release": "lerna publish --force-publish"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
