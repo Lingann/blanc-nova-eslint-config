@@ -1,7 +1,7 @@
 {
   "name": "@blanc-nova/eslint-vue",
   "version": "0.1.0-alpha.0",
-  "description": "",
+  "description": "专为Vue项目提供的ESLint配置",
   "main": "index.js",
   "scripts": {
     "upload": "npm publish",
