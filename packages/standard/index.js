@@ -15,13 +15,12 @@ module.exports = {
   },
   reportUnusedDisableDirectives: true,
   extends: [
-    './standard',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
     'plugin:markdown/recommended',
-    'prettier',
+    'eslint-config-standard',
   ],
   ignorePatterns: [
     '*.min.*',
@@ -41,7 +40,7 @@ module.exports = {
     '!.vitepress',
     '!.vscode',
   ],
-  plugins: ['html', 'unicorn', 'prettier'],
+  plugins: ['html', 'unicorn'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
@@ -191,11 +190,6 @@ module.exports = {
     },
   ],
   rules: {
-    'prettier/prettier': 'error',
-
-    // mysteel-check
-    'mysteel-check/no-http': 'error', // 禁止使用 http
-
     // import
     'import/order': 'error', // 引入顺序
     'import/first': 'error', // 引入顺序
