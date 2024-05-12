@@ -69,7 +69,7 @@ importers:
   packages/typescript:
     dependencies:
       '@blanc-nova/eslint-standard':
-        specifier: ^0.0.1
+        specifier: ^0.1.0-alpha.0
         version: link:../standard
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.26.0
@@ -87,7 +87,7 @@ importers:
   packages/vue:
     dependencies:
       '@blanc-nova/eslint-standard':
-        specifier: ^0.0.1
+        specifier: ^0.1.0-alpha.0
         version: link:../standard
       eslint:
         specifier: ^8.16.0
